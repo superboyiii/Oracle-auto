@@ -1,0 +1,34 @@
+{
+  "name": "neo-course",
+  "version": "1.0.0",
+  "description": "Source code for the NEO course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CryptozombiesHQ/neo-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CryptozombiesHQ/neo-course/issues"
+  },
+  "homepage": "https://github.com/CryptozombiesHQ/neo-course#readme",
+  "dependencies": {
+    "@cityofzion/neon-js": "^5.4.0",
+    "commander": "^10.0.1",
+    "moment": "^2.29.4",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.0.0",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
